@@ -1,0 +1,48 @@
+[0.015s] Invoking command in '/home/avani/sim_ws/src/lab-6-motion-planning-team3/build/lab7_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avani/roboracer_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --build /home/avani/sim_ws/src/lab-6-motion-planning-team3/build/lab7_pkg -- -j4 -l4
+[0.099s] [ 33%] [32mBuilding CXX object CMakeFiles/rrt_node.dir/src/rrt_node.cpp.o[0m
+[9.972s] [ 66%] [32m[1mLinking CXX executable rrt_node[0m
+[10.810s] [100%] Built target rrt_node
+[10.852s] [100%] Built target ament_cmake_python_copy_lab7_pkg
+[10.885s] [100%] Built target ament_cmake_python_copy_lab7_pkg_setup
+[11.072s] running egg_info
+[11.073s] writing lab7_pkg.egg-info/PKG-INFO
+[11.074s] writing dependency_links to lab7_pkg.egg-info/dependency_links.txt
+[11.074s] writing top-level names to lab7_pkg.egg-info/top_level.txt
+[11.076s] reading manifest file 'lab7_pkg.egg-info/SOURCES.txt'
+[11.076s] writing manifest file 'lab7_pkg.egg-info/SOURCES.txt'
+[11.103s] [100%] Built target ament_cmake_python_build_lab7_pkg_egg
+[11.119s] Invoked command in '/home/avani/sim_ws/src/lab-6-motion-planning-team3/build/lab7_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avani/roboracer_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --build /home/avani/sim_ws/src/lab-6-motion-planning-team3/build/lab7_pkg -- -j4 -l4
+[11.133s] Invoking command in '/home/avani/sim_ws/src/lab-6-motion-planning-team3/build/lab7_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avani/roboracer_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --install /home/avani/sim_ws/src/lab-6-motion-planning-team3/build/lab7_pkg
+[11.148s] -- Install configuration: ""
+[11.148s] -- Installing: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/lib/lab7_pkg/rrt_node
+[11.153s] -- Set runtime path of "/home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/lib/lab7_pkg/rrt_node" to ""
+[11.153s] -- Up-to-date: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/share/lab7_pkg/environment/pythonpath.sh
+[11.153s] -- Up-to-date: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/share/lab7_pkg/environment/pythonpath.dsv
+[11.153s] -- Up-to-date: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/local/lib/python3.10/dist-packages/lab7_pkg-0.0.0-py3.10.egg-info
+[11.153s] -- Installing: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/local/lib/python3.10/dist-packages/lab7_pkg-0.0.0-py3.10.egg-info/SOURCES.txt
+[11.153s] -- Installing: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/local/lib/python3.10/dist-packages/lab7_pkg-0.0.0-py3.10.egg-info/dependency_links.txt
+[11.153s] -- Installing: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/local/lib/python3.10/dist-packages/lab7_pkg-0.0.0-py3.10.egg-info/PKG-INFO
+[11.153s] -- Installing: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/local/lib/python3.10/dist-packages/lab7_pkg-0.0.0-py3.10.egg-info/top_level.txt
+[11.153s] -- Up-to-date: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/local/lib/python3.10/dist-packages/lab7_pkg
+[11.154s] -- Up-to-date: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/local/lib/python3.10/dist-packages/lab7_pkg/__init__.py
+[11.192s] Listing '/home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/local/lib/python3.10/dist-packages/lab7_pkg'...
+[11.198s] -- Up-to-date: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/lib/lab7_pkg/rrt_node.py
+[11.198s] -- Up-to-date: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/lib/lab7_pkg/pure_pursuit_rrt.py
+[11.198s] -- Up-to-date: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/lib/lab7_pkg/debug_node.py
+[11.198s] -- Up-to-date: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/lib/lab7_pkg/waypoint_gen_node.py
+[11.198s] -- Up-to-date: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/share/ament_index/resource_index/package_run_dependencies/lab7_pkg
+[11.199s] -- Up-to-date: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/share/ament_index/resource_index/parent_prefix_path/lab7_pkg
+[11.199s] -- Up-to-date: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/share/lab7_pkg/environment/ament_prefix_path.sh
+[11.199s] -- Up-to-date: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/share/lab7_pkg/environment/ament_prefix_path.dsv
+[11.199s] -- Up-to-date: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/share/lab7_pkg/environment/path.sh
+[11.199s] -- Up-to-date: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/share/lab7_pkg/environment/path.dsv
+[11.199s] -- Up-to-date: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/share/lab7_pkg/local_setup.bash
+[11.199s] -- Up-to-date: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/share/lab7_pkg/local_setup.sh
+[11.199s] -- Up-to-date: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/share/lab7_pkg/local_setup.zsh
+[11.199s] -- Up-to-date: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/share/lab7_pkg/local_setup.dsv
+[11.199s] -- Installing: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/share/lab7_pkg/package.dsv
+[11.199s] -- Up-to-date: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/share/ament_index/resource_index/packages/lab7_pkg
+[11.199s] -- Up-to-date: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/share/lab7_pkg/cmake/lab7_pkgConfig.cmake
+[11.199s] -- Up-to-date: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/share/lab7_pkg/cmake/lab7_pkgConfig-version.cmake
+[11.199s] -- Up-to-date: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/share/lab7_pkg/package.xml
+[11.201s] Invoked command in '/home/avani/sim_ws/src/lab-6-motion-planning-team3/build/lab7_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avani/roboracer_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --install /home/avani/sim_ws/src/lab-6-motion-planning-team3/build/lab7_pkg

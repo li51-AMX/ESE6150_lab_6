@@ -1,0 +1,167 @@
+[0.000000] (-) TimerEvent: {}
+[0.001473] (lab7_pkg) JobQueued: {'identifier': 'lab7_pkg', 'dependencies': OrderedDict()}
+[0.001542] (lab7_pkg) JobStarted: {'identifier': 'lab7_pkg'}
+[0.009912] (lab7_pkg) JobProgress: {'identifier': 'lab7_pkg', 'progress': 'cmake'}
+[0.011066] (lab7_pkg) JobProgress: {'identifier': 'lab7_pkg', 'progress': 'build'}
+[0.011148] (lab7_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/avani/sim_ws/src/lab-6-motion-planning-team3/build/lab7_pkg', '--', '-j4', '-l4'], 'cwd': '/home/avani/sim_ws/src/lab-6-motion-planning-team3/build/lab7_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'avani'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/avani'), ('OLDPWD', '/home/avani/sim_ws/src/lab-6-motion-planning-team3'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2200'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/avani/sim_ws/src/lab-6-motion-planning-team3/install:/home/avani/roboracer_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'avani'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'avani'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/avani-virtual-machine:@/tmp/.ICE-unix/1257,unix/avani-virtual-machine:/tmp/.ICE-unix/1257'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/254a9eaa_2f68_4ab3_abcf_76acfe1315ff'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FQ3OM3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg:/home/avani/roboracer_ws/install/lab1_pkg:/home/avani/roboracer_ws/install/f1tenth_gym_ros:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/avani/sim_ws/src/lab-6-motion-planning-team3/build/lab7_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/local/lib/python3.10/dist-packages:/home/avani/roboracer_ws/install/lab1_pkg/local/lib/python3.10/dist-packages:/home/avani/roboracer_ws/install/f1tenth_gym_ros/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg:/home/avani/roboracer_ws/install/lab1_pkg:/home/avani/roboracer_ws/install/f1tenth_gym_ros:/opt/ros/humble')]), 'shell': False}
+[0.100104] (lab7_pkg) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/rrt_node.dir/src/rrt_node.cpp.o\x1b[0m\n'}
+[0.100279] (-) TimerEvent: {}
+[0.200529] (-) TimerEvent: {}
+[0.300833] (-) TimerEvent: {}
+[0.401256] (-) TimerEvent: {}
+[0.501553] (-) TimerEvent: {}
+[0.602781] (-) TimerEvent: {}
+[0.703058] (-) TimerEvent: {}
+[0.803745] (-) TimerEvent: {}
+[0.904403] (-) TimerEvent: {}
+[1.006192] (-) TimerEvent: {}
+[1.106559] (-) TimerEvent: {}
+[1.208076] (-) TimerEvent: {}
+[1.308429] (-) TimerEvent: {}
+[1.408890] (-) TimerEvent: {}
+[1.510732] (-) TimerEvent: {}
+[1.611084] (-) TimerEvent: {}
+[1.711544] (-) TimerEvent: {}
+[1.812373] (-) TimerEvent: {}
+[1.914553] (-) TimerEvent: {}
+[2.015036] (-) TimerEvent: {}
+[2.115414] (-) TimerEvent: {}
+[2.215693] (-) TimerEvent: {}
+[2.316007] (-) TimerEvent: {}
+[2.416361] (-) TimerEvent: {}
+[2.517003] (-) TimerEvent: {}
+[2.617502] (-) TimerEvent: {}
+[2.718930] (-) TimerEvent: {}
+[2.820746] (-) TimerEvent: {}
+[2.921048] (-) TimerEvent: {}
+[3.021331] (-) TimerEvent: {}
+[3.121627] (-) TimerEvent: {}
+[3.223010] (-) TimerEvent: {}
+[3.323288] (-) TimerEvent: {}
+[3.423891] (-) TimerEvent: {}
+[3.524667] (-) TimerEvent: {}
+[3.626248] (-) TimerEvent: {}
+[3.726543] (-) TimerEvent: {}
+[3.828074] (-) TimerEvent: {}
+[3.928879] (-) TimerEvent: {}
+[4.029880] (-) TimerEvent: {}
+[4.132920] (-) TimerEvent: {}
+[4.233189] (-) TimerEvent: {}
+[4.333611] (-) TimerEvent: {}
+[4.434097] (-) TimerEvent: {}
+[4.535784] (-) TimerEvent: {}
+[4.636066] (-) TimerEvent: {}
+[4.736537] (-) TimerEvent: {}
+[4.837435] (-) TimerEvent: {}
+[4.938227] (-) TimerEvent: {}
+[5.040787] (-) TimerEvent: {}
+[5.141106] (-) TimerEvent: {}
+[5.241534] (-) TimerEvent: {}
+[5.342822] (-) TimerEvent: {}
+[5.443200] (-) TimerEvent: {}
+[5.543833] (-) TimerEvent: {}
+[5.646305] (-) TimerEvent: {}
+[5.746625] (-) TimerEvent: {}
+[5.847188] (-) TimerEvent: {}
+[5.949792] (-) TimerEvent: {}
+[6.050068] (-) TimerEvent: {}
+[6.150445] (-) TimerEvent: {}
+[6.250812] (-) TimerEvent: {}
+[6.351089] (-) TimerEvent: {}
+[6.451433] (-) TimerEvent: {}
+[6.552699] (-) TimerEvent: {}
+[6.652979] (-) TimerEvent: {}
+[6.753236] (-) TimerEvent: {}
+[6.855782] (-) TimerEvent: {}
+[6.956046] (-) TimerEvent: {}
+[7.056359] (-) TimerEvent: {}
+[7.156902] (-) TimerEvent: {}
+[7.257273] (-) TimerEvent: {}
+[7.357785] (-) TimerEvent: {}
+[7.458727] (-) TimerEvent: {}
+[7.561933] (-) TimerEvent: {}
+[7.662214] (-) TimerEvent: {}
+[7.762584] (-) TimerEvent: {}
+[7.864891] (-) TimerEvent: {}
+[7.966161] (-) TimerEvent: {}
+[8.066494] (-) TimerEvent: {}
+[8.167356] (-) TimerEvent: {}
+[8.267870] (-) TimerEvent: {}
+[8.369374] (-) TimerEvent: {}
+[8.469641] (-) TimerEvent: {}
+[8.571031] (-) TimerEvent: {}
+[8.671299] (-) TimerEvent: {}
+[8.771715] (-) TimerEvent: {}
+[8.872223] (-) TimerEvent: {}
+[8.972593] (-) TimerEvent: {}
+[9.072885] (-) TimerEvent: {}
+[9.173798] (-) TimerEvent: {}
+[9.274107] (-) TimerEvent: {}
+[9.374398] (-) TimerEvent: {}
+[9.474679] (-) TimerEvent: {}
+[9.576204] (-) TimerEvent: {}
+[9.677900] (-) TimerEvent: {}
+[9.778466] (-) TimerEvent: {}
+[9.880938] (-) TimerEvent: {}
+[9.973202] (lab7_pkg) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable rrt_node\x1b[0m\n'}
+[9.981035] (-) TimerEvent: {}
+[10.083361] (-) TimerEvent: {}
+[10.183654] (-) TimerEvent: {}
+[10.284313] (-) TimerEvent: {}
+[10.385434] (-) TimerEvent: {}
+[10.485862] (-) TimerEvent: {}
+[10.586631] (-) TimerEvent: {}
+[10.689089] (-) TimerEvent: {}
+[10.789796] (-) TimerEvent: {}
+[10.810952] (lab7_pkg) StdoutLine: {'line': b'[100%] Built target rrt_node\n'}
+[10.853674] (lab7_pkg) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_copy_lab7_pkg\n'}
+[10.886793] (lab7_pkg) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_copy_lab7_pkg_setup\n'}
+[10.889857] (-) TimerEvent: {}
+[10.990828] (-) TimerEvent: {}
+[11.073272] (lab7_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[11.074253] (lab7_pkg) StdoutLine: {'line': b'writing lab7_pkg.egg-info/PKG-INFO\n'}
+[11.075749] (lab7_pkg) StdoutLine: {'line': b'writing dependency_links to lab7_pkg.egg-info/dependency_links.txt\n'}
+[11.075845] (lab7_pkg) StdoutLine: {'line': b'writing top-level names to lab7_pkg.egg-info/top_level.txt\n'}
+[11.077100] (lab7_pkg) StdoutLine: {'line': b"reading manifest file 'lab7_pkg.egg-info/SOURCES.txt'\n"}
+[11.077669] (lab7_pkg) StdoutLine: {'line': b"writing manifest file 'lab7_pkg.egg-info/SOURCES.txt'\n"}
+[11.090945] (-) TimerEvent: {}
+[11.104423] (lab7_pkg) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_lab7_pkg_egg\n'}
+[11.120606] (lab7_pkg) CommandEnded: {'returncode': 0}
+[11.122039] (lab7_pkg) JobProgress: {'identifier': 'lab7_pkg', 'progress': 'install'}
+[11.133281] (lab7_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/avani/sim_ws/src/lab-6-motion-planning-team3/build/lab7_pkg'], 'cwd': '/home/avani/sim_ws/src/lab-6-motion-planning-team3/build/lab7_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'avani'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/avani'), ('OLDPWD', '/home/avani/sim_ws/src/lab-6-motion-planning-team3'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2200'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/avani/sim_ws/src/lab-6-motion-planning-team3/install:/home/avani/roboracer_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'avani'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'avani'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/avani-virtual-machine:@/tmp/.ICE-unix/1257,unix/avani-virtual-machine:/tmp/.ICE-unix/1257'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/254a9eaa_2f68_4ab3_abcf_76acfe1315ff'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FQ3OM3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg:/home/avani/roboracer_ws/install/lab1_pkg:/home/avani/roboracer_ws/install/f1tenth_gym_ros:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/avani/sim_ws/src/lab-6-motion-planning-team3/build/lab7_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/local/lib/python3.10/dist-packages:/home/avani/roboracer_ws/install/lab1_pkg/local/lib/python3.10/dist-packages:/home/avani/roboracer_ws/install/f1tenth_gym_ros/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg:/home/avani/roboracer_ws/install/lab1_pkg:/home/avani/roboracer_ws/install/f1tenth_gym_ros:/opt/ros/humble')]), 'shell': False}
+[11.147243] (lab7_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.149339] (lab7_pkg) StdoutLine: {'line': b'-- Installing: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/lib/lab7_pkg/rrt_node\n'}
+[11.153962] (lab7_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/lib/lab7_pkg/rrt_node" to ""\n'}
+[11.154394] (lab7_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/share/lab7_pkg/environment/pythonpath.sh\n'}
+[11.154705] (lab7_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/share/lab7_pkg/environment/pythonpath.dsv\n'}
+[11.154874] (lab7_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/local/lib/python3.10/dist-packages/lab7_pkg-0.0.0-py3.10.egg-info\n'}
+[11.154910] (lab7_pkg) StdoutLine: {'line': b'-- Installing: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/local/lib/python3.10/dist-packages/lab7_pkg-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[11.154940] (lab7_pkg) StdoutLine: {'line': b'-- Installing: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/local/lib/python3.10/dist-packages/lab7_pkg-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[11.154967] (lab7_pkg) StdoutLine: {'line': b'-- Installing: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/local/lib/python3.10/dist-packages/lab7_pkg-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[11.154992] (lab7_pkg) StdoutLine: {'line': b'-- Installing: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/local/lib/python3.10/dist-packages/lab7_pkg-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[11.155027] (lab7_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/local/lib/python3.10/dist-packages/lab7_pkg\n'}
+[11.155053] (lab7_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/local/lib/python3.10/dist-packages/lab7_pkg/__init__.py\n'}
+[11.191244] (-) TimerEvent: {}
+[11.193547] (lab7_pkg) StdoutLine: {'line': b"Listing '/home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/local/lib/python3.10/dist-packages/lab7_pkg'...\n"}
+[11.198961] (lab7_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/lib/lab7_pkg/rrt_node.py\n'}
+[11.199404] (lab7_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/lib/lab7_pkg/pure_pursuit_rrt.py\n'}
+[11.199543] (lab7_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/lib/lab7_pkg/debug_node.py\n'}
+[11.199613] (lab7_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/lib/lab7_pkg/waypoint_gen_node.py\n'}
+[11.199663] (lab7_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/share/ament_index/resource_index/package_run_dependencies/lab7_pkg\n'}
+[11.199978] (lab7_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/share/ament_index/resource_index/parent_prefix_path/lab7_pkg\n'}
+[11.200122] (lab7_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/share/lab7_pkg/environment/ament_prefix_path.sh\n'}
+[11.200163] (lab7_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/share/lab7_pkg/environment/ament_prefix_path.dsv\n'}
+[11.200197] (lab7_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/share/lab7_pkg/environment/path.sh\n'}
+[11.200228] (lab7_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/share/lab7_pkg/environment/path.dsv\n'}
+[11.200256] (lab7_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/share/lab7_pkg/local_setup.bash\n'}
+[11.200285] (lab7_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/share/lab7_pkg/local_setup.sh\n'}
+[11.200313] (lab7_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/share/lab7_pkg/local_setup.zsh\n'}
+[11.200342] (lab7_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/share/lab7_pkg/local_setup.dsv\n'}
+[11.200369] (lab7_pkg) StdoutLine: {'line': b'-- Installing: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/share/lab7_pkg/package.dsv\n'}
+[11.200415] (lab7_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/share/ament_index/resource_index/packages/lab7_pkg\n'}
+[11.200444] (lab7_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/share/lab7_pkg/cmake/lab7_pkgConfig.cmake\n'}
+[11.200478] (lab7_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/share/lab7_pkg/cmake/lab7_pkgConfig-version.cmake\n'}
+[11.200503] (lab7_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/share/lab7_pkg/package.xml\n'}
+[11.202469] (lab7_pkg) CommandEnded: {'returncode': 0}
+[11.225243] (lab7_pkg) JobEnded: {'identifier': 'lab7_pkg', 'rc': 0}
+[11.227255] (-) EventReactorShutdown: {}
