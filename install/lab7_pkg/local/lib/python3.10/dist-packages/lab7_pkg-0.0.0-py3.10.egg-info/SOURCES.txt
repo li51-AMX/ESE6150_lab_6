@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+lab7_pkg/__init__.py
+lab7_pkg.egg-info/PKG-INFO
+lab7_pkg.egg-info/SOURCES.txt
+lab7_pkg.egg-info/dependency_links.txt
+lab7_pkg.egg-info/top_level.txt
